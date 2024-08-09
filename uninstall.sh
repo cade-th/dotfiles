@@ -7,6 +7,8 @@ stow -D tmux
 stow -D zsh
 stow -D nvim
 
+chsh -s $(which bash)
+
 # Remove LazyVim starter from the nvim directory
 rm -rf ~/dotfiles/nvim/.config/nvim
 

@@ -1,5 +1,5 @@
 # Install dependencies
-if [ "$(uname)" == "Darwin" ]; then
+if [ "$(uname)" = "Darwin" ]; then
   # macOS
   brew install stow neovim git curl zsh tmux
 elif [ -n "$(command -v apt-get)" ]; then
@@ -25,4 +25,6 @@ stow nvim
 # Set up Neovim
 nvim --headless "+Lazy sync" +qa
 
-echo "Setup complete! You can now start Neovim with LazyVim configured."
+chsh -s $(which zsh)
+
+echo "Setup complete! Logout for shell changes to take effect"
