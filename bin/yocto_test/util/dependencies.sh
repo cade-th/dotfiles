@@ -6,10 +6,10 @@
 
 # -----------------------------------------------------------------------------
 dependencies_check() {
-    local packages=("git" "curl")  # Add any other necessary packages here
+    
 
     # Loop through the list of packages
-    for pkg in "${packages[@]}"; do
+    for pkg in "${PACKAGES[@]}"; do
         # Check if the package is installed on the Debian system
         if ! dpkg -l | grep -qw "$pkg"; then
             echo "Package $pkg is not installed. Trying to install..."
