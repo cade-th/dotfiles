@@ -19,4 +19,4 @@ system_info_set() {
     echo "Arch: $ARCH"
 }
 
-system_info_set
+system_info_set 
