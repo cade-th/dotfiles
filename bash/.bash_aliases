@@ -7,6 +7,9 @@ alias outlook='surf https://outlook.office365.com/mail/'
 alias chat='surf https://chatgpt.com/'
 alias reddit='surf https://www.reddit.com/'
 
+alias battery="upower -i $(upower -e | grep 'BAT') | grep -E 'percentage' | awk '{print \$2}'"
+
+
 alias c='clear'
 alias v='nvim'
 
