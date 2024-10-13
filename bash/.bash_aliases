@@ -9,7 +9,11 @@ alias reddit='surf https://www.reddit.com/'
 
 alias battery="upower -i $(upower -e | grep 'BAT') | grep -E 'percentage' | awk '{print \$2}'"
 
-alias endure='cd ~/jobs/EndurID_Inmate_Tag'
+alias endure='nvim ~/jobs/EndurID_Inmate_Tag'
+alias d='nvim ~/dotfiles'
+
+alias em='/usr/share/segger_embedded_studio_for_arm_5.10a/bin/emStudio'
+
 
 alias c='clear'
 alias v='nvim'
