@@ -9,6 +9,7 @@ alias reddit='surf https://www.reddit.com/'
 
 alias battery="upower -i $(upower -e | grep 'BAT') | grep -E 'percentage' | awk '{print \$2}'"
 
+alias endure='cd ~/jobs/EndurID_Inmate_Tag'
 
 alias c='clear'
 alias v='nvim'
