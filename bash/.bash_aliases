@@ -14,8 +14,12 @@ alias d='cd ~/dotfiles'
 
 alias em='/usr/share/segger_embedded_studio_for_arm_5.10a/bin/emStudio'
 
+alias printOdic='lp'
+alias ss='scrot -s'
+
 
 alias c='clear'
 alias v='nvim'
+alias explore='thunar'
 
 alias b='source .bashrc'
