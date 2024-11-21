@@ -7,7 +7,7 @@ alias outlook='surf https://outlook.office365.com/mail/'
 alias chat='surf https://chatgpt.com/'
 alias reddit='surf https://www.reddit.com/'
 
-alias battery="upower -i $(upower -e | grep 'BAT') | grep -E 'percentage' | awk '{print \$2}'"
+alias battery="upower -i /org/freedesktop/UPower/devices/battery_BAT1 | grep -E 'percentage|state'"
 
 alias d='cd ~/dotfiles'
 
