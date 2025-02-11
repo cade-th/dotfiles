@@ -1,10 +1,11 @@
 stow tmux
 stow nvim
 stow bash
-stow x11
 stow kicad
+stow i3
+stow xmodmap -t ~
 
-sudo apt install stow neovim git curl tmux  
+sudo apt install stow git curl tmux i3
  
 
 source ./bash/.bashrc
