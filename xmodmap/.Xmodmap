@@ -1,4 +1,4 @@
 keycode 110 = bracketleft braceleft Home
 keycode 115 = bracketright braceright End
-keycode 112 = Escape NoSymbol Escape
+keycode 112 = Escape
 

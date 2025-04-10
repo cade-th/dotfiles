@@ -1,13 +1,13 @@
 stow tmux
 stow nvim
-stow bash
+stow zsh
 stow kicad
 stow i3
 stow xmodmap -t ~
 
-sudo apt install stow git curl tmux i3
- 
+sudo apt update
+sudo apt install stow git zsh curl tmux i3
 
-source ./bash/.bashrc
+source ./zsh/.zshrc
 
 echo "Setup complete! Logout for shell changes to take effect"

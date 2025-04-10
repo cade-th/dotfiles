@@ -1,0 +1,278 @@
+{
+    "packages": [
+        {
+            "current_version": "2024.07.11",
+            "install_timestamp": 1740339331,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/Steffen-W"
+                    },
+                    "name": "Steffen Wittemeier"
+                },
+                "description": "Import library files from Octopart, Samacsys, Ultralibrarian, Snapeda and EasyEDA",
+                "description_full": "Import library files from Octopart, Samacsys, Ultralibrarian, Snapeda and EasyEDA.\n For usage and correct setup please read the Readme: \n https://github.com/Steffen-W/Import-LIB-KiCad-Plugin#use-of-the-application",
+                "identifier": "com.github.Steffen-W.impartGUI",
+                "license": "GPL-3.0",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/Steffen-W"
+                    },
+                    "name": "Steffen Wittemeier"
+                },
+                "name": "impart GUI for KiCad",
+                "resources": {
+                    "homepage": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin"
+                },
+                "tags": [
+                    "import",
+                    "library",
+                    "octopart",
+                    "samacsys",
+                    "ultralibrarian",
+                    "snapeda",
+                    "easyeda"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "0aec88102fd8f7c89f6bf4e5d179e20168abedadb0a09984dd540c684b5e98e9",
+                        "download_size": 65949,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2025.01.21/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 219144,
+                        "kicad_version": "8.00",
+                        "status": "stable",
+                        "version": "2025.01.21"
+                    },
+                    {
+                        "download_sha256": "ca4714f8ba62d3ed148465791bd66449102a2da0f5c78a23e84b5dd2744965a5",
+                        "download_size": 65343,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.08.17/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 217649,
+                        "kicad_version": "8.00",
+                        "status": "stable",
+                        "version": "2024.08.17"
+                    },
+                    {
+                        "download_sha256": "d548dfe9deda47b4a718da35a13215b53016f8bef2d671a421ddfaeccb9943ea",
+                        "download_size": 27869,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.07.11/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 72200,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "2024.07.11"
+                    },
+                    {
+                        "download_sha256": "3c4c926d7a00bce0edfcd1ad20ba3be52bb2494f529b2c6198081525dbc32262",
+                        "download_size": 27837,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.04.08/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 72143,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "2024.04.08"
+                    },
+                    {
+                        "download_sha256": "747bfdbfc34edc160cbf6f77462c16aa5064c68c1adc076930a1a1c7fef0f695",
+                        "download_size": 27824,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.02.24/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 71950,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "2024.02.24"
+                    }
+                ]
+            },
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "0.13",
+            "install_timestamp": 1740339331,
+            "package": {
+                "author": {
+                    "contact": {
+                        "web": "https://adamws.github.io"
+                    },
+                    "name": "adamws"
+                },
+                "description": "Plugin for mechanical keyboard design",
+                "description_full": "Plugin for mechanical keyboard design.\nIt features automatic key placement and routing based on various layout descriptions like <a href='www.keyboard-layout-editor.com'>kle</a>, <a href='www.github.com/ergogen/ergogen'>ergogen</a> and <a href='www.caniusevia.com'>via</a>.\nTo learn more visit project's homepage.",
+                "identifier": "com.github.adamws.kicad-kbplacer",
+                "license": "GPL-3.0",
+                "name": "Keyboard footprints placer",
+                "resources": {
+                    "Bug Tracker": "https://github.com/adamws/kicad-kbplacer/issues",
+                    "Homepage": "https://github.com/adamws/kicad-kbplacer",
+                    "Sponsor": "https://ko-fi.com/adamws"
+                },
+                "tags": [
+                    "keyboard"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "50b939474a7e8dc8325be4d3002771a7b146b239983c5585004219641a25ecef",
+                        "download_size": 215523,
+                        "download_url": "https://github.com/adamws/kicad-kbplacer/releases/download/v0.13/kbplacer-0.13.zip",
+                        "install_size": 211025,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "0.13"
+                    },
+                    {
+                        "download_sha256": "3dbfa0e922139d5babb1a1f7af1a36e219e6c61cafc6d8bd927bdb797dc86511",
+                        "download_size": 212446,
+                        "download_url": "https://github.com/adamws/kicad-kbplacer/releases/download/v0.12/kbplacer-0.12.zip",
+                        "install_size": 208106,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "8.0.9",
+                        "status": "stable",
+                        "version": "0.12"
+                    },
+                    {
+                        "download_sha256": "336643687548004796418112e548c6cd722f31fc866dfdd77749734cffd8421e",
+                        "download_size": 201812,
+                        "download_url": "https://github.com/adamws/kicad-kbplacer/releases/download/v0.11/kbplacer-0.11.zip",
+                        "install_size": 197716,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "8.0.9",
+                        "status": "stable",
+                        "version": "0.11"
+                    },
+                    {
+                        "download_sha256": "3bcdd250efe404121866bb5fd1e2beffacf012e9d35cf39f785fef7474e6ef1f",
+                        "download_size": 191521,
+                        "download_url": "https://github.com/adamws/kicad-kbplacer/releases/download/v0.10/kbplacer-0.10.zip",
+                        "install_size": 187425,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "8.0.9",
+                        "status": "stable",
+                        "version": "0.10"
+                    },
+                    {
+                        "download_sha256": "77b3459d26382b09c74e71212feb7dd511e0c4e3a470b0d596658e6d12abd15e",
+                        "download_size": 184169,
+                        "download_url": "https://github.com/adamws/kicad-kbplacer/releases/download/v0.9/kbplacer-0.9.zip",
+                        "install_size": 180359,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "8.0.9",
+                        "status": "stable",
+                        "version": "0.9"
+                    },
+                    {
+                        "download_sha256": "defeb0972716db4d425f5ea4cfd389571b70b7df492bbc66d7ec9b5d182f53df",
+                        "download_size": 145740,
+                        "download_url": "https://github.com/adamws/kicad-kbplacer/releases/download/v0.8/kbplacer-0.8.zip",
+                        "install_size": 142378,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "7.0.11",
+                        "status": "stable",
+                        "version": "0.8"
+                    },
+                    {
+                        "download_sha256": "00e414b6030cdff997e5b6598e05e9fd403e84ae67c13b866aedf3fce923bab4",
+                        "download_size": 141892,
+                        "download_url": "https://github.com/adamws/kicad-kbplacer/releases/download/v0.7/kbplacer-0.7.zip",
+                        "install_size": 138688,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "7.0.11",
+                        "status": "stable",
+                        "version": "0.7"
+                    },
+                    {
+                        "download_sha256": "a368b94979642144a97d74d0af3bb655435deee56d81e5df19dbd78aaeaafa6a",
+                        "download_size": 38823,
+                        "download_url": "https://github.com/adamws/kicad-kbplacer/releases/download/v0.6/kicad-kbplacer.zip",
+                        "install_size": 113988,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "7.0.11",
+                        "status": "stable",
+                        "version": "0.6"
+                    },
+                    {
+                        "download_sha256": "27c68e121f312cf0761a062fecc8b071997fce135c47801682402e8be62a231b",
+                        "download_size": 22174,
+                        "download_url": "https://github.com/adamws/kicad-kbplacer/releases/download/v0.5/kicad-kbplacer.zip",
+                        "install_size": 65533,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "7.0.6",
+                        "status": "stable",
+                        "version": "0.5"
+                    },
+                    {
+                        "download_sha256": "b04e271dcec90745f786659bddabece2a378d6de626b30c95cc8a2822426222d",
+                        "download_size": 17579,
+                        "download_url": "https://github.com/adamws/kicad-kbplacer/releases/download/v0.4/kicad-kbplacer.zip",
+                        "install_size": 45449,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "7.0.6",
+                        "status": "stable",
+                        "version": "0.4"
+                    },
+                    {
+                        "download_sha256": "572e80d1bfceba4a0156e33fe58eeaa86cd59d53a4e63bef399297c0b5b0e1e8",
+                        "download_size": 13975,
+                        "download_url": "https://github.com/adamws/kicad-kbplacer/releases/download/v0.3/kicad-kbplacer.zip",
+                        "install_size": 31740,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "7.0.6",
+                        "status": "stable",
+                        "version": "0.3"
+                    },
+                    {
+                        "download_sha256": "83aca6a74d6af66447821f9b21e33a7ca36a3389b735801e72ea9f47c35a0d7e",
+                        "download_size": 12097,
+                        "download_url": "https://github.com/adamws/kicad-kbplacer/releases/download/v0.2/kicad-kbplacer.zip",
+                        "install_size": 24731,
+                        "kicad_version": "6.0",
+                        "kicad_version_max": "6.0",
+                        "status": "stable",
+                        "version": "0.2"
+                    }
+                ]
+            },
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "1.0.2",
+            "install_timestamp": 1740339327,
+            "package": {
+                "author": {
+                    "contact": {
+                        "web": "https://www.pcbway.com"
+                    },
+                    "name": "PCBWay.com"
+                },
+                "description": "Start prototype and assembly by sending files to PCBWay with just one click.",
+                "description_full": "Click this plugin for high quality prototyping and assembly services, PCBWay will commit to meeting your needs to the greatest extent.\n\nWhen you click PCBWay Plug-in button, we will export these files in your project:\n\n1. Gerber files in correct format for production\n2. IPC-Netlist file\n3. Bom-file that includes all information of components (please note designator, quantity, MPN/part number, package/footprint are necessary)\n4. Pick and Place-file used in assembly\n\nYou can click \"Save to Cart\" to place an order immediately after uploading the files ( usually only takes a few seconds), our engineers will double check the files before the production.\n\nAbout PCBWay:\n\nPCBWay is a Chinese company specializing in PCB prototyping and assembly, devotes to offer one-stop service. The build-time for standard PCBs is 24hrs. Our upgraded material with TG150-160 costs as low as $5/10pcs while our remarkable after-sale services are standing by for any questions you may encounter. As a sponsor of KiCad, we will always support its development.",
+                "identifier": "com.github.pcbway.PCBWay-Plug-in-for-Kicad",
+                "license": "MIT",
+                "maintainer": {
+                    "contact": {
+                        "web": "https://www.pcbway.com"
+                    },
+                    "name": "PCBWay.com"
+                },
+                "name": "PCBWay Plug-in for KiCad",
+                "resources": {
+                    "homepage": "https://github.com/pcbway/PCBWay-Plug-in-for-Kicad"
+                },
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "69355ae2356b664b05ad7438b8004f823300f75b4496d198c5c38cf6af686e67",
+                        "download_size": 13320,
+                        "download_url": "https://github.com/pcbway/PCBWay-Plug-in-for-Kicad/releases/download/v1.0.2/KiCadToPCBWay_v1.0.2.zip",
+                        "install_size": 27954,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "1.0.2"
+                    }
+                ]
+            },
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        }
+    ]
+}
