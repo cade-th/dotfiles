@@ -1,4 +1,0 @@
-#!/bin/bash
-
-
-MAKE=sudo make clean install

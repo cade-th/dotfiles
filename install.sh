@@ -8,6 +8,6 @@ stow xmodmap -t ~
 sudo apt update
 sudo apt install stow git zsh curl tmux i3
 
-source ./zsh/.zshrc
+source ~/.zshrc
 
 echo "Setup complete! Logout for shell changes to take effect"
