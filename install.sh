@@ -1,12 +1,27 @@
 stow tmux
-stow nvim
-stow zsh
 stow kicad
-stow i3
-stow xmodmap -t ~
+stow zsh
+stow nvim
+stow hyprland
+stow waybar
+stow kitty
 
-sudo apt update
-sudo apt install stow git zsh curl tmux i3
+sudo pacman -S xdg-desktop-portal-hyprland \
+	wl-clipboard \
+	waybar \
+	rofi-wayland \
+	swaylock \
+	swayidle \
+	grim \
+	slurp \
+	make \
+	kitty \
+    ttf-jetbrains-mono-nerd \
+    swww \
+    unzip \
+    wget \
+
+# sudo timedatectl set-timezone America/Chicago
 
 source ~/.zshrc
 

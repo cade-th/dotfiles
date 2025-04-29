@@ -1,8 +1,10 @@
-export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+export EDITOR="nvim"
+export TERMINAL="kitty"
+export BROWSER="firefox"
 
-alias ls='ls --color=auto'
-alias d='cd ~/dotfiles'
-alias ss='scrot -s'
-alias c='clear'
-alias v='nvim' alias ohmyzsh="mate ~/.oh-my-zsh"
-alias p= 'cd ~/projects/cpp/cade_lang'
+alias c="clear"
+alias d="cd ~/dotfiles"
+alias v="nvim"
+
+
+PROMPT='%F{cyan}%n@%m%f %F{yellow}%1~%f %# '

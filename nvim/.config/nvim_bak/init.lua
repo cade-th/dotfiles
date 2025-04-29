@@ -1,0 +1,1 @@
+require("cade_nvim")
