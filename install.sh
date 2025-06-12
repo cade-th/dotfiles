@@ -20,6 +20,10 @@ sudo pacman -S xdg-desktop-portal-hyprland \
     swww \
     unzip \
     wget \
+    networkmanager \
+    network-manager-applet \
+
+# Setup network maanger service
 
 # sudo timedatectl set-timezone America/Chicago
 

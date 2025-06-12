@@ -17,6 +17,7 @@
         "idle_inhibitor",
         "pulseaudio",
         "network",
+        "tray",
         "cpu",
         "memory",
         "temperature",

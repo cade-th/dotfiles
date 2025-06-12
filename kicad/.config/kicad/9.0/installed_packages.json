@@ -1,0 +1,80 @@
+{
+    "packages": [
+        {
+            "current_version": "4.0.1",
+            "install_timestamp": 1749102462,
+            "package": {
+                "author": {
+                    "contact": {
+                        "email": "dawid_cislo@o2.pl"
+                    },
+                    "name": "Dawid Cisło"
+                },
+                "description": "Symbol and Footprint library focused on improving schematic and PCB readability and aesthetics, mainly intended for hobbyist use",
+                "description_full": "Current version: 4.0\n\nCheck your settings in preferences -> packages and updates.\nIf you have the default library nickname prefix 'PCM_', proceed to install version 4.0.1.\nIf you don't want that prefix, leave that field blank and choose version 4.0 from the list below.\nRefer to documentation via the links below if you have any trouble\n\nAlternate KiCad Library contains over 36700 symbols and 10400 footprints.\n Version 4.0 adds LED, Voltage regulator and crystal symbol libraries, LED footprint libraries and various improvements and bugfixes to existing symbols and footprints.\n\n",
+                "identifier": "com.github.dawidcislo.alternate-kicad-library",
+                "license": "CC-BY-SA",
+                "name": "Alternate Kicad Library",
+                "resources": {
+                    "Github": "https://github.com/DawidCislo/Alternate-KiCad-Library",
+                    "Website": "https://www.alternatekicadlibrary.com/"
+                },
+                "tags": [
+                    "footprints",
+                    "symbols"
+                ],
+                "type": "library",
+                "versions": [
+                    {
+                        "download_sha256": "e7237b61a896384f8e54f908d598f3e3dfec83c1cbeb2a8d729e771b3512fde9",
+                        "download_size": 29004220,
+                        "download_url": "https://github.com/DawidCislo/Alternate-KiCad-Library/releases/download/v4.0n/com_github_alternate_kicad_library.zip",
+                        "install_size": 140884345,
+                        "kicad_version": "8.0",
+                        "status": "stable",
+                        "version": "4.0.1"
+                    },
+                    {
+                        "download_sha256": "3b9b93dad1aca4c1df6c4042aa91fb424e96504a191870dc7546d881b1a742eb",
+                        "download_size": 29002713,
+                        "download_url": "https://github.com/DawidCislo/Alternate-KiCad-Library/releases/download/v4.0/com_github_alternate_kicad_library.zip",
+                        "install_size": 140740689,
+                        "kicad_version": "8.0",
+                        "status": "stable",
+                        "version": "4.0"
+                    },
+                    {
+                        "download_sha256": "55da0f126d556400a0511b75fc1543f91e5a4de1645cafbf057c307cb51a9e46",
+                        "download_size": 24209427,
+                        "download_url": "https://github.com/DawidCislo/Alternate-KiCad-Library/releases/download/v3.0/com_github_alternate_kicad_library.zip",
+                        "install_size": 107680556,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "3.0"
+                    },
+                    {
+                        "download_sha256": "dc07a18ece7a8df203229999b13efe2f0f8e15abf1b07ea507deefe760d5de8b",
+                        "download_size": 15031216,
+                        "download_url": "https://github.com/DawidCislo/Alternate-KiCad-Library/releases/download/v2.1/com_github_alternate_kicad_library.zip",
+                        "install_size": 67073607,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "2.1"
+                    },
+                    {
+                        "download_sha256": "9263e7d394912f06baa1d33180e59bf10a75086ad683abf31d65581c8f2f16e2",
+                        "download_size": 10872186,
+                        "download_url": "https://github.com/DawidCislo/Alternate-KiCad-Library/raw/main/PCM_Releases/2.0/com_github_alternate_kicad_library.zip",
+                        "install_size": 59137804,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "2.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        }
+    ]
+}
