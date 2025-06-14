@@ -28,6 +28,7 @@ sudo pacman -S \
 	xorg-xinit \
 	xwallpaper \
 	picom \
+	sysstat \
 
 # Setup network maanger service
 
