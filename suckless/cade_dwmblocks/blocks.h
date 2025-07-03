@@ -3,6 +3,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"", "status-systemstats.sh", 10, 14},
+	{"", "status-volume.sh", 0, 10},
 	{"", "date '+%b %d (%a) %I:%M%p'",5,0},
 };
 

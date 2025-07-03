@@ -1,5 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
+#include <X11/XF86keysym.h>
+
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
@@ -63,6 +65,9 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "kitty", NULL };
+static const char *volup[]   = { "/home/urmom/dotfiles/scripts/volume-up.sh", NULL };
+static const char *voldown[] = { "/home/urmom/dotfiles/scripts/volume-down.sh", NULL };
+static const char *volmute[] = { "/home/urmom/dotfiles/scripts/volume-mute.sh", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -114,6 +119,9 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+	{ 0, XF86XK_AudioRaiseVolume, spawn, {.v = volup   } },
+	{ 0, XF86XK_AudioLowerVolume, spawn, {.v = voldown } },
+	{ 0, XF86XK_AudioMute,        spawn, {.v = volmute } },
 };
 
 /* button definitions */

@@ -9,19 +9,11 @@ stow x11
 stow picom
 
 sudo pacman -S \
-	xdg-desktop-portal-hyprland \
-	wl-clipboard \
-	waybar \
-	rofi-wayland \
-	hyprland \
-	swaylock \
-	swayidle \
 	grim \
 	slurp \
 	make \
 	kitty \
 	ttf-jetbrains-mono-nerd \
-	swww \
 	unzip \
 	wget \
 	xorg-server \
@@ -29,6 +21,18 @@ sudo pacman -S \
 	xwallpaper \
 	picom \
 	sysstat \
+	zsh \
+	stow \
+	clang \
+	llvm \
+	python3 \
+	iwd \
+	iwd-runit \
+	webkit2gtk \ 
+	gcr \ 
+	gtk3 \ 
+	glib2 \ 
+	pkgconf
 
 # Setup network maanger service
 
