@@ -3,7 +3,7 @@ to check current running services:
 sudo ls /etc/runit/runsvdir/default
 
 to check availiable services
-ls /etc/sv
+ls /etc/runit/sv
 
 links:
 https://github.com/cade-th/dotfiles

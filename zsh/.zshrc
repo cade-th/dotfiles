@@ -10,4 +10,4 @@ alias p="cd ~/projects/c/6502_Assembler/"
 export PATH="$HOME/dotfiles/scripts:$PATH"
 
 PROMPT='%F{cyan}%n@%m%f %F{yellow}%1~%f %# '
-. "/home/urmom/.deno/env"
+export PATH="$HOME/.ghcup/bin:$HOME/.cabal/bin:$PATH"
