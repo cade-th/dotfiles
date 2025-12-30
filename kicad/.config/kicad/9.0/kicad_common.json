@@ -88,8 +88,8 @@
     "file_history_size": 9,
     "language": "Default",
     "pdf_viewer_name": "",
-    "text_editor": "",
+    "text_editor": "nvim",
     "use_system_pdf_viewer": true,
-    "working_dir": "/home/urmom/projects/kicad/6502"
+    "working_dir": "/home/urmom/projects/pcb/6502"
   }
 }
