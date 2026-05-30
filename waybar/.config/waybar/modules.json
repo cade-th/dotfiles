@@ -4,8 +4,6 @@
         "tooltip": true,
         "tooltip-format": "btw"
     },
-
-
     "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
@@ -38,7 +36,11 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", "", ""]
+            "default": [
+                "",
+                "",
+                ""
+            ]
         },
         "on-click": "pavucontrol"
     },
@@ -47,9 +49,7 @@
         "format-ethernet": "{ipaddr}/{cidr} ",
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
-	"on-click": "sh ~/scripts/rofi-wifi-menu/rofi-wifi-menu.sh"
-	 
+        "format-disconnected": "Disconnected ⚠"
     },
     "cpu": {
         "format": "  {usage}%",
@@ -57,19 +57,18 @@
     },
     "memory": {
         "format": "  {}%",
-	"tooltip": true
+        "tooltip": true
     },
     "temperature": {
         "interval": 10,
-        "hwmon-path": "/sys/devices/platform/coretemp.0/hwmon/hwmon4/temp1_input",
         "critical-threshold": 100,
         "format-critical": " {temperatureC}",
         "format": " {temperatureC}°C"
     },
     "hyprland/language": {
-       "format": "  {}",
-       "format-en": "EN",
-       "format-ru": "RU"
+        "format": "  {}",
+        "format-en": "EN",
+        "format-ru": "RU"
     },
     "battery": {
         "states": {
@@ -81,7 +80,13 @@
         "format-charging": "  {capacity}%",
         "format-plugged": "  {capacity}%",
         "format-alt": "{time}  {icon}",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
     },
     "battery#bat2": {
         "bat": "BAT2"
@@ -91,5 +96,4 @@
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     }
-
 }

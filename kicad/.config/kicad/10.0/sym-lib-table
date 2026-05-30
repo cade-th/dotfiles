@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "KiCad") (type "Table") (uri "/usr/share/kicad/template/sym-lib-table") (options "") (descr "KiCad Default Libraries"))
+	(lib (name "custom") (type "KiCad") (uri "/home/mymom/dotfiles/pcb/symbols/custom.kicad_sym") (options "") (descr ""))
+	(lib (name "kipart") (type "KiCad") (uri "/home/mymom/dotfiles/pcb/kipart/LCD.kicad_sym") (options "") (descr ""))
+)

@@ -7,36 +7,21 @@ stow waybar
 stow kitty
 stow x11
 stow picom
+stow rofi
 
-sudo pacman -S \
-	grim \
-	slurp \
-	make \
-	kitty \
-	ttf-jetbrains-mono-nerd \
-	unzip \
-	wget \
-	xorg-server \
-	xorg-xinit \
-	xwallpaper \
-	picom \
-	sysstat \
-	zsh \
-	stow \
-	clang \
-	llvm \
-	python3 \
-	iwd \
-	iwd-runit \
-	webkit2gtk \ 
-	gcr \ 
-	gtk3 \ 
-	glib2 \ 
-	pkgconf
+# Update system
+sudo pacman -Syu
 
-# Setup network maanger service
+# Install all necessary packages for this dotfiles environment
+sudo pacman -S --needed --noconfirm \
+    hyprland waybar rofi-wayland swaybg \
+    kitty thunar network-manager-applet \
+    ttf-font-awesome ttf-nerd-fonts-symbols \
+    wireplumber playerctl brightnessctl pavucontrol \
+    stow neovim tmux zsh picom
 
-# sudo timedatectl set-timezone America/Chicago
+# Set system timezone to Pacific Time
+sudo timedatectl set-timezone America/Los_Angeles
 
 source ~/.zshrc
 

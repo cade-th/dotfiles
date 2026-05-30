@@ -1,0 +1,320 @@
+{
+  "api": {
+    "enable_server": false,
+    "interpreter_path": "/usr/bin/python3"
+  },
+  "appearance": {
+    "grid_striping": false,
+    "hicontrast_dimming_factor": 0.800000011920929,
+    "icon_theme": 2,
+    "show_scrollbars": false,
+    "text_editor_zoom": 0,
+    "toolbar_icon_size": 24,
+    "use_custom_cursors": true,
+    "use_icons_in_menus": true,
+    "zoom_correction_factor": 1.0
+  },
+  "auto_backup": {
+    "enabled": true,
+    "limit_total_size": 104857600
+  },
+  "dialog": {
+    "controls": {
+      "*Pin Table": {
+        "__geometry": {
+          "h": 581,
+          "w": 1044,
+          "x": 0,
+          "y": 0
+        },
+        "wxCheckBox_0": false,
+        "wxCheckBox_1": false,
+        "wxCheckBox_2": false,
+        "wxCheckBox_3": false,
+        "wxChoice_0": -1,
+        "wxChoice_1": -1,
+        "wxGrid_0": "0 1 2 3 4 5 9 10",
+        "wxGrid_0wxWindow_3wxBitmapComboBox_0": "Down",
+        "wxGrid_0wxWindow_3wxTextCtrl_0": "VCC",
+        "wxStaticBox_0wxRadioButton_0": true,
+        "wxStaticBox_0wxRadioButton_1": false,
+        "wxStaticBox_1wxRadioButton_0": true,
+        "wxStaticBox_1wxRadioButton_1": false
+      },
+      "*Symbol Libraries": {
+        "__geometry": {
+          "h": 649,
+          "w": 1010,
+          "x": 0,
+          "y": 0
+        },
+        "wxPanel_0wxAuiNotebook_0": "Global Libraries",
+        "wxPanel_0wxAuiNotebook_0wxPanel_0wxGrid_0": "0 1 2 3 4 5 6 7",
+        "wxPanel_0wxAuiNotebook_0wxPanel_0wxGrid_0wxWindow_3wxComboBox_0": "KiCad",
+        "wxPanel_0wxAuiNotebook_0wxPanel_0wxGrid_0wxWindow_3wxComboCtrl_0": "/home/mymom/dotfiles/pcb/kipart/LCD.kicad_sym",
+        "wxPanel_0wxAuiNotebook_0wxPanel_0wxGrid_0wxWindow_3wxComboCtrl_0wxTextCtrl_0": "/home/mymom/dotfiles/pcb/kipart/LCD.kicad_sym",
+        "wxPanel_0wxAuiNotebook_0wxPanel_0wxGrid_0wxWindow_3wxTextCtrl_0": "kipart",
+        "wxPanel_0wxAuiNotebook_0wxPanel_1wxGrid_0": "0 1 2 3 4 5 6 7",
+        "wxPanel_0wxGrid_0": "0 1"
+      },
+      "Choose Symbol": {
+        "__geometry": {
+          "h": 770,
+          "w": 990,
+          "x": 0,
+          "y": 0
+        },
+        "wxCheckBox_0": false,
+        "wxCheckBox_1": true,
+        "wxPanel_0wxSplitterWindow_0": 495,
+        "wxPanel_0wxSplitterWindow_0wxPanel_0wxPanel_0wxHtmlWindow_0": 0,
+        "wxPanel_0wxSplitterWindow_0wxPanel_0wxPanel_0wxSearchCtrl_0": "nand",
+        "wxPanel_0wxSplitterWindow_0wxPanel_1wxPanel_1wxOwnerDrawnComboBox_0": 0
+      },
+      "Configure Paths": {
+        "__geometry": {
+          "h": 284,
+          "w": 626,
+          "x": 0,
+          "y": 0
+        },
+        "wxStaticBox_0wxGrid_0": "0 1"
+      },
+      "Edit Reference Field": {
+        "__geometry": {
+          "h": 299,
+          "w": 708,
+          "x": 0,
+          "y": 0
+        },
+        "wxCheckBox_0": true,
+        "wxCheckBox_1": false,
+        "wxCheckBox_2": true,
+        "wxCheckBox_3": false,
+        "wxCheckBox_4": false,
+        "wxChoice_0": -1,
+        "wxOwnerDrawnComboBox_0": 0,
+        "wxOwnerDrawnComboBox_0wxTextCtrl_0": "Default Font",
+        "wxTextCtrl_0": "U5",
+        "wxTextCtrl_1": 12700,
+        "wxTextCtrl_2": 2612233,
+        "wxTextCtrl_3": 165100
+      },
+      "Library Symbol Properties": {
+        "__geometry": {
+          "h": 607,
+          "w": 1180,
+          "x": 0,
+          "y": 0
+        },
+        "wxNotebook_0": "General",
+        "wxNotebook_0wxPanel_0wxComboBox_0": "",
+        "wxNotebook_0wxPanel_0wxStaticBox_0wxGrid_0": "0 1 2 3 4 5 6 7",
+        "wxNotebook_0wxPanel_0wxStaticBox_1wxCheckBox_0": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_1wxCheckBox_1": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxCheckBox_0": true,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxCheckBox_1": true,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxCheckBox_2": true,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxTextCtrl_0": 5080,
+        "wxNotebook_0wxPanel_0wxStaticBox_3wxCheckBox_0": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_3wxCheckBox_1": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_3wxCheckBox_2": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_3wxCheckBox_3": false,
+        "wxNotebook_0wxPanel_0wxTextCtrl_0": "WC6502",
+        "wxNotebook_0wxPanel_0wxTextCtrl_1": "",
+        "wxNotebook_0wxPanel_1wxStaticBox_0wxCheckBox_0": true,
+        "wxNotebook_0wxPanel_1wxStaticBox_0wxGrid_0": "0 1",
+        "wxNotebook_0wxPanel_1wxStaticBox_0wxSpinCtrl_0": 1,
+        "wxNotebook_0wxPanel_1wxStaticBox_1wxGrid_0": "0",
+        "wxNotebook_0wxPanel_1wxStaticBox_1wxRadioButton_0": true,
+        "wxNotebook_0wxPanel_1wxStaticBox_1wxRadioButton_1": false,
+        "wxNotebook_0wxPanel_1wxStaticBox_1wxRadioButton_2": false,
+        "wxNotebook_0wxPanel_3wxCheckBox_0": false,
+        "wxNotebook_0wxPanel_3wxGrid_0": "0",
+        "wxNotebook_0wxPanel_4wxCheckBox_0": false,
+        "wxNotebook_0wxPanel_4wxGrid_0": "0 1"
+      },
+      "Page Settings": {
+        "__geometry": {
+          "h": 720,
+          "w": 957,
+          "x": 0,
+          "y": 0
+        },
+        "wxCheckBox_0": false,
+        "wxCheckBox_1": false,
+        "wxCheckBox_10": false,
+        "wxCheckBox_11": false,
+        "wxCheckBox_12": false,
+        "wxCheckBox_13": false,
+        "wxCheckBox_2": false,
+        "wxCheckBox_3": false,
+        "wxCheckBox_4": false,
+        "wxCheckBox_5": false,
+        "wxCheckBox_6": false,
+        "wxCheckBox_7": false,
+        "wxCheckBox_8": false,
+        "wxCheckBox_9": false,
+        "wxChoice_0": 1,
+        "wxChoice_1": 0,
+        "wxDatePickerCtrl_0wxComboCtrl_0": "05/25/2026",
+        "wxDatePickerCtrl_0wxComboCtrl_0wxTextCtrl_0": "05/25/2026",
+        "wxTextCtrl_0": 2794000,
+        "wxTextCtrl_1": 4318000,
+        "wxTextCtrl_10": "",
+        "wxTextCtrl_11": "",
+        "wxTextCtrl_12": "",
+        "wxTextCtrl_13": "",
+        "wxTextCtrl_14": "",
+        "wxTextCtrl_15": "",
+        "wxTextCtrl_2": "",
+        "wxTextCtrl_3": "",
+        "wxTextCtrl_4": "",
+        "wxTextCtrl_5": "6502 Ben Eater Clone",
+        "wxTextCtrl_6": "",
+        "wxTextCtrl_7": "",
+        "wxTextCtrl_8": "",
+        "wxTextCtrl_9": ""
+      },
+      "Pin Properties": {
+        "__geometry": {
+          "h": 486,
+          "w": 706,
+          "x": 0,
+          "y": 0
+        },
+        "wxBitmapComboBox_0": "Input",
+        "wxBitmapComboBox_1": "Line",
+        "wxBitmapComboBox_2": "Right",
+        "wxCheckBox_0": false,
+        "wxCheckBox_1": false,
+        "wxCheckBox_2": true,
+        "wxCollapsiblePane_0wxPanel_0wxGrid_0": "0 1 2",
+        "wxTextCtrl_0": "DB3",
+        "wxTextCtrl_1": "10",
+        "wxTextCtrl_2": -266700,
+        "wxTextCtrl_3": 38100,
+        "wxTextCtrl_4": 50800,
+        "wxTextCtrl_5": 12700,
+        "wxTextCtrl_6": 12700
+      },
+      "Symbol Libraries": {
+        "__geometry": {
+          "h": 649,
+          "w": 1010,
+          "x": 0,
+          "y": 0
+        },
+        "wxPanel_0wxAuiNotebook_0": "Global Libraries",
+        "wxPanel_0wxAuiNotebook_0wxPanel_0wxGrid_0": "0 1 2 3 4 5 6 7",
+        "wxPanel_0wxAuiNotebook_0wxPanel_0wxGrid_0wxWindow_3wxComboCtrl_0": "/home/mymom/projects/PCB/symbols/custom/W6502.kicad_sym",
+        "wxPanel_0wxAuiNotebook_0wxPanel_0wxGrid_0wxWindow_3wxComboCtrl_0wxTextCtrl_0": "/home/mymom/projects/PCB/symbols/custom/W6502.kicad_sym",
+        "wxPanel_0wxAuiNotebook_0wxPanel_0wxGrid_0wxWindow_3wxTextCtrl_0": "W65idk2",
+        "wxPanel_0wxAuiNotebook_0wxPanel_1wxGrid_0": "0 1 2 3 4 5 6 7",
+        "wxPanel_0wxGrid_0": "0 1"
+      },
+      "Symbol Properties": {
+        "__geometry": {
+          "h": 556,
+          "w": 1013,
+          "x": 0,
+          "y": 0
+        },
+        "wxNotebook_0": "General",
+        "wxNotebook_0wxPanel_0wxStaticBox_0wxGrid_0": "0 1 2 3 4 5 6 7",
+        "wxNotebook_0wxPanel_0wxStaticBox_0wxGrid_0wxWindow_3wxTextCtrl_0": "U2",
+        "wxNotebook_0wxPanel_0wxStaticBox_1wxCheckBox_0": true,
+        "wxNotebook_0wxPanel_0wxStaticBox_1wxCheckBox_1": true,
+        "wxNotebook_0wxPanel_0wxStaticBox_1wxChoice_0": -1,
+        "wxNotebook_0wxPanel_0wxStaticBox_1wxChoice_1": -1,
+        "wxNotebook_0wxPanel_0wxStaticBox_1wxChoice_2": 0,
+        "wxNotebook_0wxPanel_0wxStaticBox_1wxChoice_3": 0,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxCheckBox_0": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxCheckBox_1": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxCheckBox_2": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxCheckBox_3": false,
+        "wxNotebook_0wxPanel_0wxStaticBox_2wxCheckBox_4": false,
+        "wxNotebook_0wxPanel_1wxGrid_0": "0 1 2 3 4",
+        "wxNotebook_0wxPanel_2wxCheckBox_0": false,
+        "wxNotebook_0wxPanel_2wxGrid_0": "0 1",
+        "wxTextCtrl_0": "custom:WC6502"
+      }
+    }
+  },
+  "do_not_show_again": {
+    "data_collection_prompt": true,
+    "env_var_overwrite_warning": false,
+    "scaled_3d_models_warning": false,
+    "update_check_prompt": true,
+    "zone_fill_warning": false
+  },
+  "environment": {
+    "vars": null
+  },
+  "git": {
+    "authorEmail": "",
+    "authorName": "",
+    "enableGit": true,
+    "repositories": null,
+    "updatInterval": 5,
+    "useDefaultAuthor": true
+  },
+  "graphics": {
+    "antialiasing_mode": 2,
+    "canvas_type": 1
+  },
+  "input": {
+    "auto_pan": false,
+    "auto_pan_acceleration": 5,
+    "center_on_zoom": true,
+    "focus_follow_sch_pcb": false,
+    "horizontal_pan": false,
+    "hotkey_feedback": true,
+    "immediate_actions": true,
+    "motion_pan_modifier": 0,
+    "mouse_left": -1,
+    "mouse_middle": 2,
+    "mouse_right": 2,
+    "reverse_scroll_pan_h": false,
+    "reverse_scroll_zoom": false,
+    "scroll_modifier_pan_h": 308,
+    "scroll_modifier_pan_v": 306,
+    "scroll_modifier_zoom": 0,
+    "warp_mouse_on_move": true,
+    "zoom_acceleration": false,
+    "zoom_speed": 1,
+    "zoom_speed_auto": true
+  },
+  "meta": {
+    "version": 5
+  },
+  "package_manager": {
+    "sash_pos": 380
+  },
+  "session": {
+    "pinned_design_block_libs": [],
+    "pinned_fp_libs": [],
+    "pinned_symbol_libs": [],
+    "remember_open_files": false
+  },
+  "spacemouse": {
+    "pan_speed": 5,
+    "reverse_pan_x": false,
+    "reverse_pan_y": false,
+    "reverse_rotate": false,
+    "reverse_zoom": false,
+    "rotate_speed": 5
+  },
+  "system": {
+    "clear_3d_cache_interval": 30,
+    "file_explorer": "",
+    "file_history_size": 9,
+    "language": "Default",
+    "local_history_debounce": 5,
+    "local_history_enabled": true,
+    "pdf_viewer_name": "",
+    "text_editor": "",
+    "use_system_pdf_viewer": true,
+    "working_dir": "/home/mymom/projects/PCB/WC6502"
+  }
+}
